@@ -1,8 +1,21 @@
 {
+  "name": "app",
+  "service": "app",
   "dockerComposeFile": [
     "../docker-compose.yml",
     "docker-compose.yml"
   ],
-  "service": "app",
-  "workspaceFolder": "/workspace"
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens"
+  ]
+  // "features": {
+  //   "git": {
+  //     "version": "latest",
+  //     "ppa": false
+  //   }
+  // }
 }
